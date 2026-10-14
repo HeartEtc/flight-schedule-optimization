@@ -1,0 +1,39 @@
+# ---- 原始数据（体积大，不进 Git）----
+data/raw/*.csv
+data/raw/*.zip
+!data/raw/README.md
+
+# ---- 样例数据与聚合结果保留 ----
+!data/sample/
+!data/features/
+!data/output/
+!data/model/
+
+# ---- 模型二进制文件 ----
+data/model/*.model
+data/model/*.bin
+
+# ---- 各语言的构建产物与缓存 ----
+out/
+target/
+build/
+*.class
+*.jar
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+.Rhistory
+.RData
+.Rproj.user/
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
